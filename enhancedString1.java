@@ -8,7 +8,7 @@ public class enhancedString1 {
 
         // This algorithm return a string as how many character there is.
 
-        String value = "aaabbbbbccdeeefff";    // Simple string
+        String value = "aaabbbbbccdeeefff";    // Simple string to "3a5b2c1d3e3f"
 
         String key = shortCut(value);
         System.out.println(key);
@@ -50,7 +50,7 @@ public class enhancedString1 {
             }
         }
 
-        String key = "";                                  // last process for returning that Arraylist to string.
+        String key = "";                                  // last process for returning Arraylist to string.
 
         for (int i = 0; i < strings.size(); i++) {
 
